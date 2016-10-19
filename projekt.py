@@ -17,7 +17,7 @@ def save_sites():
 save_sites()
 
 def get_cvs():
-    regex_competitors = re.compile(r'<tr><td><a href="participant_r\.aspx\?id=(?P<id>\d+?)">(?P<Name>.*?)</a>.*?'
+    regex_competitors = re.compile(r'<tr.*?><td><a href="participant_r\.aspx\?id=(?P<id>\d+?)">(?P<Name>.*?)</a>.*?'
                                    r'href="country_individual_r\.aspx\?code=(?P<Short_country_name>.*?)">(?P<Full_country_name>.*?)</a>.*?'
                                    r'align="center">(?P<P1>.*?)</td><td align="center">(?P<P2>.*?)</td><td align="center">(?P<P3>.*?)</td>'
                                    r'<td align="center">(?P<P4>.*?)</td><td align="center">(?P<P5>.*?)</td><td align="center">(?P<P6>.*?)</td>'

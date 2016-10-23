@@ -15,4 +15,10 @@ Vsi podatki so bili zajeti iz [uradne IMO strani](http://www.imo-official.org). 
 - priznanje
 - leto
 
+## Analiza podatkov:
+- procentualna porazdelitev
+- najuspešnejše države, tekmovalci
+- meje za medalje
+- najtežja naloga
+- slovenska statistika
 

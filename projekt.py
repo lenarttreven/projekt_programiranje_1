@@ -2,7 +2,6 @@ import requests
 import re
 import os
 import csv
-import pandas as pd
 import orodja
 
 
@@ -11,7 +10,7 @@ def save_sites():
     parameters = 'year'
     for year in range(2007, 2017):
         url = '{}?{}={}'.format(server, parameters, year)
-        name ='/Users/lenarttreven/Desktop/Programiranje1/projekt_programiranje_1/podatki/{}'.format(year)
+        name ='podatki/{}'.format(year)
         orodja.shrani(url, name)
 
 save_sites()
